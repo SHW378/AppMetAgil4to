@@ -10,7 +10,7 @@ const placesData = [
     image: "img/1.jpg",
     lat: 21.1532,
     lng: -101.7110,
-    address: "Plaza Centenario, La Salle Bajío",
+    address: "Universidad De La Salle Bajío, Plaza Centenario",
     phone: "N/A"
   },
   {
@@ -24,7 +24,7 @@ const placesData = [
     image: "img/2.jpg",
     lat: 21.1530,
     lng: -101.7095,
-    address: "Entre Negocios e Ingenierías",
+    address: "Universidad De La Salle Bajío, Entre Negocios e Ingenierías",
     phone: "N/A"
   },
   {
@@ -38,7 +38,7 @@ const placesData = [
     image: "img/3.jpg",
     lat: 21.1538,
     lng: -101.7098,
-    address: "Cerca de Gastronomía",
+    address: "Universidad De La Salle Bajío, Cerca de Gastronomía",
     phone: "N/A"
   },
   {
@@ -52,7 +52,7 @@ const placesData = [
     image: "img/4.jpg",
     lat: 21.1536,
     lng: -101.7102,
-    address: "Facultad de Negocios",
+    address: "Universidad De La Salle Bajío, Facultad de Negocios",
     phone: "N/A"
   },
   {
@@ -66,7 +66,7 @@ const placesData = [
     image: "img/5.jpg",
     lat: 21.1537,
     lng: -101.7100,
-    address: "Facultad de Negocios",
+    address: "Universidad De La Salle Bajío, Facultad de Negocios",
     phone: "N/A"
   },
   {
@@ -80,7 +80,7 @@ const placesData = [
     image: "img/6.jpg",
     lat: 21.1523,
     lng: -101.7118,
-    address: "Plaza San Juan Bautista",
+    address: "Universidad De La Salle Bajío, Plaza San Juan Bautista",
     phone: "N/A"
   },
   {
@@ -94,7 +94,7 @@ const placesData = [
     image: "img/7.jpg",
     lat: 21.1518,
     lng: -101.7125,
-    address: "Entre Comunicación y Odontología",
+    address: "Universidad De La Salle Bajío, Entre Comunicación y Odontología",
     phone: "N/A"
   },
   {
@@ -108,7 +108,7 @@ const placesData = [
     image: "img/8.jpg",
     lat: 21.1522,
     lng: -101.7110,
-    address: "Facultad de Idiomas",
+    address: "Universidad De La Salle Bajío, Facultad de Idiomas",
     phone: "N/A"
   },
 ];
