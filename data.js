@@ -11,7 +11,7 @@ const placesData = [
     lat: 21.1532,
     lng: -101.7110,
     address: "Universidad De La Salle Bajío, Plaza Centenario",
-    phone: "N/A"
+    phone: "(477) 382-9102"
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const placesData = [
     lat: 21.1530,
     lng: -101.7095,
     address: "Universidad De La Salle Bajío, Entre Negocios e Ingenierías",
-    phone: "N/A"
+    phone: "(477) 819-3341"
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const placesData = [
     lat: 21.1538,
     lng: -101.7098,
     address: "Universidad De La Salle Bajío, Cerca de Gastronomía",
-    phone: "N/A"
+    phone: "(477) 502-1847"
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ const placesData = [
     lat: 21.1536,
     lng: -101.7102,
     address: "Universidad De La Salle Bajío, Facultad de Negocios",
-    phone: "N/A"
+    phone: "(477) 293-8475"
   },
   {
     id: 5,
@@ -67,7 +67,7 @@ const placesData = [
     lat: 21.1537,
     lng: -101.7100,
     address: "Universidad De La Salle Bajío, Facultad de Negocios",
-    phone: "N/A"
+    phone: "(477) 746-1928"
   },
   {
     id: 6,
@@ -81,7 +81,7 @@ const placesData = [
     lat: 21.1523,
     lng: -101.7118,
     address: "Universidad De La Salle Bajío, Plaza San Juan Bautista",
-    phone: "N/A"
+    phone: "(477) 381-0029"
   },
   {
     id: 7,
@@ -95,7 +95,7 @@ const placesData = [
     lat: 21.1518,
     lng: -101.7125,
     address: "Universidad De La Salle Bajío, Entre Comunicación y Odontología",
-    phone: "N/A"
+    phone: "(477) 928-3746"
   },
   {
     id: 8,
@@ -109,6 +109,6 @@ const placesData = [
     lat: 21.1522,
     lng: -101.7110,
     address: "Universidad De La Salle Bajío, Facultad de Idiomas",
-    phone: "N/A"
+    phone: "(477) 102-9384"
   },
 ];
