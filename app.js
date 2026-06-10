@@ -229,9 +229,51 @@ document.addEventListener('DOMContentLoaded', () => {
 
     reviewForm.addEventListener('submit', saveGlobalReview);
 
+    // Reseñas por defecto (se cargan solo la primera vez)
+    function seedDefaultReviews() {
+        if (localStorage.getItem('survivor_reviews_seeded')) return;
+
+        const defaultReviews = [
+            {
+                user: "Oscar Romero",
+                text: "Fui a la Cafetería Plaza Centenario y la verdad me sorprendió. Los precios son accesibles para estudiantes, las tortas están muy buenas y el servicio es rápido. En general la universidad tiene muy buenas opciones para comer, siempre encuentras algo diferente.",
+                rating: 5,
+                timestamp: "2026-06-02T14:30:00Z"
+            },
+            {
+                user: "Angel",
+                text: "Probé la pizza de Fratelo Gastronomía y está bastante decente, la masa es delgada como me gusta. El único detalle es que a veces tarda un poco cuando hay mucha gente, pero vale la pena esperar. Le doy 4 estrellas porque el precio es un poco elevado para ser pizza de campus.",
+                rating: 4,
+                timestamp: "2026-06-04T10:15:00Z"
+            },
+            {
+                user: "Vidal",
+                text: "El Rincón es mi lugar favorito para desayunar entre clases. Las bubas están riquísimas y los precios son los más baratos del campus. Lo recomiendo al 100% si andas corto de lana. Lo único malo es que el espacio es reducido y en horas pico está lleno.",
+                rating: 4,
+                timestamp: "2026-06-05T09:45:00Z"
+            },
+            {
+                user: "Victor",
+                text: "Leaf & Brew tiene el mejor café del campus sin duda. El ambiente es muy tranquilo para estudiar o hacer tareas. Eso sí, los precios son un poco altos comparados con las demás cafeterías, pero la calidad del café lo justifica. Buen lugar para darte un gusto.",
+                rating: 3,
+                timestamp: "2026-06-07T16:20:00Z"
+            },
+            {
+                user: "Santiago",
+                text: "Me gusta mucho Punta del Cielo en la facultad de idiomas, siempre paso por un café antes de mi clase de inglés. El frappe de moka es el mejor. Además el lugar está bien ubicado y el personal es muy amable. Se los recomiendo si les gusta el café de calidad.",
+                rating: 5,
+                timestamp: "2026-06-09T11:00:00Z"
+            }
+        ];
+
+        localStorage.setItem('survivor_global_reviews', JSON.stringify(defaultReviews));
+        localStorage.setItem('survivor_reviews_seeded', 'true');
+    }
+
     // Inicialización
     setStars(5);
     renderCards('all');
     renderMapMarkers();
+    seedDefaultReviews();
     loadGlobalReviews();
 });
